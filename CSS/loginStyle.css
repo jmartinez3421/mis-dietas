@@ -1,0 +1,46 @@
+.navbar{
+    background-color: green !important;
+    border: 0 !important;
+}
+
+.a-nav{
+    color: white !important;
+    font-size:medium;
+}
+
+.a-nav:hover{
+    color: lightgrey !important;
+}
+
+section{
+    margin-top: 80px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.imagen{
+    margin-top: -30px;
+    background-image: url("../IMG/dieta.jpg");
+    background-color: #cccccc;
+}
+
+.footer{
+    position: absolute;
+    width: 100%;
+    margin-top: 0px;
+    bottom: 0 !important;
+}
+
+@media (max-width:768px){
+    section{
+        margin-top: 200px !important;
+    }
+    
+    .row{
+        text-align: center;
+    }
+
+    .imagen{
+        display: none;
+    }
+}

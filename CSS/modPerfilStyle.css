@@ -1,0 +1,13 @@
+.navbar{
+    background-color: green !important;
+    border: 0 !important;
+}
+
+.a-nav{
+    color: white !important;
+    font-size:medium;
+}
+
+.a-nav:hover{
+    color: lightgrey !important;
+}

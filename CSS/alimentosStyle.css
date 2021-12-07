@@ -1,0 +1,40 @@
+.navbar{
+    background-color: green !important;
+    border: 0 !important;
+}
+
+.a-nav{
+    color: white !important;
+    font-size:medium;
+}
+
+.a-nav:hover{
+    color: lightgrey !important;
+}
+
+.alimento{
+    padding: 1%;
+    background-color: rgb(173, 236, 173);
+    min-height: 356px;
+    border: 2px solid white;
+}
+
+.row{
+    margin-left: 0px !important;
+    margin-right: 0 !important;
+}
+
+table tr td{
+    padding-left:10px;
+}
+
+.col-sm-4{
+    margin-top: 10px;
+}
+
+@media (max-width:768px){
+    button{
+        margin-top: 5px;
+    }
+}
+

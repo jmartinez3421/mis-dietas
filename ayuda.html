@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MisDietas</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/ayudaStyle.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="JS/ayudaJS.js" defer></script>
+    <link rel="shortcut icon" href="IMG/Logo.png">
+</head>
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <img src="IMG/LogoMisDietasBlanco.png" alt="Logo MisDietas" height="70px" style="padding: 5px;">
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="dietas.php" id='volver' class="navbar-btn a-nav"><span class="glyphicon glyphicon-log-out"></span> Volver</a></li>
+                
+            </ul>
+        </div>
+    </nav>
+
+    <section>
+        <!--
+            Hacer funcion con JS que recoja todos los títulos de la clase pregunta obteniendo el id 
+            y introduzca los links a cada uno en un BS Dropdown para que el usuario pueda visualizarlos 
+            todos rápidamente sin tener que hacer scroll por la página
+        -->
+
+        <!--
+            Todos los temas de ayuda se encontrarán en formato BS Collapse Accordion para que solo
+            se visualice todo el contenido en el caso de que el usuario pulse encima, para no sobrecargar
+            de información la pantalla y el scroll y la visualizacion de las coasas sea más amena.
+        -->
+
+        <!--
+            En el apartado de primeros pasos para crear una dieta: 
+                1. Estará hecho en formato diapositivas (BS Carousel).
+                2. En la primera diapositiva habrá una pequeña explicación de como crear la dieta
+                en formato escrito.
+                3. En las siguientes serán capturas de pantalla de la página web señalando que tiene
+                que hacer el usuario para poder crear su propia dieta.
+        -->
+
+        <!--
+            Tendrá que haber un apartado de primeros pasos para PC y otro para dispositivos móbiles, ya que
+            la información que aparece en pantalla es distinta en ambos casos.
+        -->
+
+        <!--
+            Algunos apartados:
+                - Como se calculan los valores nutricionales que necesita el usuario.
+                - Como elegir el objetivo de la dieta que quiere crear.
+                - Como elegir la actividad física que realiza el usuario.
+                - Como saber si con los alimentos que ha introducido cumple con los requisitos
+                - Como imprimir la dieta (BS Carousel con capturas de pantalla)
+                - Como crear la dieta perfecta (que se pongan en contacto con un experto)
+                - Otros (correo de contacto)
+        -->
+    </section>
+
+    <footer class="footer container-fluid" style="background-color: green; min-height: 80px; color: white;">
+        <div class="main" style="min-height: 50px;"></div>
+        <p style="padding-left: 5px; display: inline-block;">MisDietas.es</p>
+        <p style="float: right; padding-right: 5px;">By Jordi Martinez Grau</p>
+      </footer>
+</body>
+</html>

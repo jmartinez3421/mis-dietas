@@ -1,0 +1,33 @@
+.navbar{
+    background-color: green !important;
+    border: 0 !important;
+}
+
+.a-nav{
+    color: white !important;
+    font-size:medium;
+}
+
+.a-nav:hover{
+    color: lightgrey !important;
+}
+
+.navbar-default .navbar-nav>.open>a.dropdown-toggle{
+    background-color: rgb(1, 110, 1) !important;
+}
+
+label{
+    font-size: medium !important;
+}
+
+.peso{
+    font-weight: bold;
+}
+
+section{
+    margin-left: 5px; 
+    margin-right:5px;
+}
+td{
+    font-size: medium !important;
+}
